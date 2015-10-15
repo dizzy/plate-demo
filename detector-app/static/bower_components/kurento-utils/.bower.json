@@ -1,0 +1,14 @@
+{
+  "name": "kurento-utils",
+  "homepage": "https://github.com/Kurento/kurento-utils-bower",
+  "version": "5.1.0",
+  "_release": "5.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "5.1.0",
+    "commit": "bf1065816a3c550ee2032f6bf2733fba6e13af79"
+  },
+  "_source": "git://github.com/Kurento/kurento-utils-bower.git",
+  "_target": "5.1.0",
+  "_originalSource": "kurento-utils"
+}
