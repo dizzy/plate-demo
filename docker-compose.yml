@@ -1,0 +1,16 @@
+detector:
+  build: detector-app/.
+  container_name: detector
+  links:
+    - kurento-kms:kurento-kms
+  ports:
+   - "8080:8080"
+  net: "host"
+  privileged: true
+kurento-kms:
+  build: kurento-kms/.
+  container_name: kurento-kms
+  privileged: true
+  hostname: kurento-kms
+  ports:
+   - "8888:8888"
